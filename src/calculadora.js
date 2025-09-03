@@ -20,7 +20,7 @@ function realizarSomaDosCamposDaTela () {
     const valor1 = 1
     const valor2 = 3
 
-    if(valor1 == 0 || valor2 == 0) {
+    if(valor1 < 0 || valor2 < 0) {
         console.log('Digite um valor maior que zero')
     }
 
