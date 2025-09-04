@@ -4,6 +4,22 @@ function somarDoisValores (valor1, valor2) {
 
 }
 
+function subtrairDoisValores (valor1, valor2) {
+    const resultado = valor1 - valor2;
+    return resultado;
+
+}
+
+function mutiplicarDoisValores(valor1, valor2) {
+    const resultado = valor1 * valor2;
+    return resultado;
+}
+
+function dividirDoisValores (valor1, valor2){
+    const resultado = valor1/valor2;
+    return resultado;
+}
+
 function calcularMediaDeDoisValores (valor1, valor2) {
     // 1. Soma todos os valores
     const resultadoSomaDeDoisValores = somarDoisValores(valor1, valor2);
@@ -31,5 +47,8 @@ function realizarSomaDosCamposDaTela () {
 
 module.exports = {
     somarDoisValores,
-    calcularMediaDeDoisValores
+    calcularMediaDeDoisValores,
+    subtrairDoisValores,
+    mutiplicarDoisValores,
+    dividirDoisValores
 }
